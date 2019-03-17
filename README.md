@@ -7,6 +7,10 @@ Given a list of blobs in a particular language, and the commits
 those blobs are found in, find a list of relevant blob pairs for this
 ecosystem.
 
+The list of blobs (/data/play/<language>thrumaps/) is created as part of trend and dependency calculation mentioned in https://github.com/ssc-oscar/plots ("see grepNew.pbs and overview/deps/b2pkgs...")
+
+(See also https://github.com/ssc-oscar/fingerprinting)
+
 ex: `clone_detector3.py Go-repos.txt clones_go.csv.gz /data/play/GothruMaps/b2cPtaKGo.%d.s'`
 
 ### Sample output:
